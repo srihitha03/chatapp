@@ -8,7 +8,6 @@ export default function ChatBox(props) {
     const [inputFieldValue, setInputFieldValue] = useState('');
     const [userData, setUserData] = useState({});
     const [formValue, setformValue] = useState([]);
-
     const enteredText = (event) => {
         setInputValue(event.target.value);
         setInputFieldValue(event.target.value);
