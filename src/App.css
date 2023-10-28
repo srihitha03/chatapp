@@ -1,0 +1,81 @@
+.App {
+  background-color: beige;
+}
+.navBar {
+  background-color: bisque;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  font-size: xx-large;
+  font-family: monospace;
+}
+.icon-container {
+  /* position:relative; */
+  height: 36px;
+  background-color: wheat;
+}
+
+.main-container {
+
+  display: flex;
+  min-height: 608px;
+}
+
+
+.container {
+  width: 30%;
+  border-right: 1px solid;
+}
+.personList {
+  margin-top: 30px;
+  text-align: left;
+}
+.chatBox {
+  width: 70%;
+  position: relative;
+}
+.inputText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parent {
+  position: relative;
+  border: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 26px 26px;
+  top: 6px;
+  margin-left: 10px;
+  background-color: wheat;
+}
+.head {
+  margin: 4px 6px 6px 14px;
+  height: 5px;
+  width: 5px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  position: absolute;
+  right: 0px;
+  top: -1px;
+}
+.body {
+  margin: 6px;
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    right: -1px;
+    top: 7px;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    /* border-right: 1px solid #000; */
+    border-radius: 17px;
+    rotate: 40deg;
+}

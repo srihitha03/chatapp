@@ -1,0 +1,45 @@
+.onName {
+    text-align: center;
+}
+.headText {
+    width:100%;
+}
+.title{
+    background: #e9e6e6;
+}
+input[type=text], select {
+    width: 93%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 7%;
+    height: 37px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .displayText {
+    float: right;
+    
+  }
+  .displayText p {
+    background-color: #3498db;
+    border-radius: 10px; 
+    padding: 5px; 
+    color: white; 
+
+  }
+ 
